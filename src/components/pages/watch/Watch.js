@@ -2,7 +2,12 @@ import React from "react";
 
 export default function Watch() {
   return (
-    <section id="watch">
+    <section
+      id="watch"
+      style={{
+        backgroundImage: `url("images/watch.jpg")`,
+      }}
+    >
       <div className="container">
         <div className="watch-sec">
           <div className="watch-btn">

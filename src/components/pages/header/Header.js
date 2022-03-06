@@ -2,7 +2,13 @@ import React from "react";
 
 export default function Header() {
   return (
-    <section id="header" className="head-bg">
+    <section
+      id="header"
+      className="head-bg"
+      style={{
+        backgroundImage: `url("images/header-bg.jpg")`,
+      }}
+    >
       <nav className="navbar navbar-expand-lg menu-head">
         <div
           className="container d-flex align-iteam-center menu-center"

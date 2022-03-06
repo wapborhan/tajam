@@ -2,7 +2,12 @@ import React from "react";
 
 export default function Teams() {
   return (
-    <section id="team">
+    <section
+      id="team"
+      style={{
+        backgroundImage: `url("images/team.jpg")`,
+      }}
+    >
       <div className="container team-head text-center">
         <h2>MEET OUR AMAZING TEAM</h2>
         <h5>Lorem ipsum dolor sit amet proin gravida nibh vel velit</h5>

@@ -2,7 +2,12 @@ import React from "react";
 
 export default function Clients() {
   return (
-    <section id="clients">
+    <section
+      id="clients"
+      style={{
+        backgroundImage: `url("images/clients.jpg")`,
+      }}
+    >
       <div className="container text-center clients-main my-slider">
         <div className="slider-content">
           <i className="fas fa-quote-left"></i>

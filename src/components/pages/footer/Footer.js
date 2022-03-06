@@ -2,7 +2,12 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <section id="footer">
+    <section
+      id="footer"
+      style={{
+        backgroundImage: `url("images/footer.jpg")`,
+      }}
+    >
       <div className="container">
         <div className="row foot-head">
           <div className="col-lg-4">
