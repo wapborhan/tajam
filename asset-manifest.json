@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tajam/static/css/main.5be4d8ab.css",
+    "main.js": "/tajam/static/js/main.ee967138.js",
+    "static/js/787.e4edd6e6.chunk.js": "/tajam/static/js/787.e4edd6e6.chunk.js",
+    "index.html": "/tajam/index.html",
+    "main.5be4d8ab.css.map": "/tajam/static/css/main.5be4d8ab.css.map",
+    "main.ee967138.js.map": "/tajam/static/js/main.ee967138.js.map",
+    "787.e4edd6e6.chunk.js.map": "/tajam/static/js/787.e4edd6e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5be4d8ab.css",
+    "static/js/main.ee967138.js"
+  ]
+}
