@@ -39,7 +39,7 @@ button:hover {
 
 
 .head-bg {
-  background: url(../images/header-bg.jpg) #3d325d;
+  /* background: url(../images/header-bg.jpg) #3d325d; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,9 +68,7 @@ button:hover {
 }
 
 
-.main-menu {
-  /*    padding-top: 35px;*/
-}
+
 
 .menu ul {
   list-style-type: none;
@@ -222,7 +220,7 @@ button:hover {
 }
 
 #watch {
-  background: url(../images/watch.jpg) #3d325d;
+  /* background: url(../images/watch.jpg) #3d325d; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -289,7 +287,7 @@ div.video-wrapper {
 
 
 /* === Services Start === */
-.services-head {}
+
 
 .services-head h2 {
   padding-top: 70px;
@@ -369,7 +367,7 @@ div.video-wrapper {
 
 /* === Team Part Start === */
 #team {
-  background: url(../images/team.jpg) #3d325d;
+  /* background: url(../images/team.jpg) #3d325d; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -557,7 +555,7 @@ div.video-wrapper {
 
 /* ===Clients Part Start === */
 #clients {
-  background: url(../images/clients.jpg) #3d325d;
+  /* background: url(../images/clients.jpg) #3d325d; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -645,35 +643,35 @@ div.video-wrapper {
 }
 
 .slider-dots li:nth-child(1) {
-  background: url(../images/clients/clients-1.png);
+  /* background: url(../images/clients/clients-1.png); */
   border-radius: 50%;
   width: 45px;
   height: 45px;
 }
 
 .slider-dots li:nth-child(2) {
-  background: url(../images/clients/clients-2.png);
+  /* background: url(../images/clients/clients-2.png); */
   border-radius: 50%;
   width: 45px;
   height: 45px;
 }
 
 .slider-dots li:nth-child(3) {
-  background: url(../images/clients/clients-3.png);
+  /* background: url(../images/clients/clients-3.png); */
   border-radius: 50%;
   width: 45px;
   height: 45px;
 }
 
 .slider-dots li:nth-child(4) {
-  background: url(../images/clients/clients-4.png);
+  /* background: url(../images/clients/clients-4.png); */
   border-radius: 50%;
   width: 45px;
   height: 45px;
 }
 
 .slider-dots li:nth-child(5) {
-  background: url(../images/clients/clients-5.png);
+  /* background: url(../images/clients/clients-5.png); */
   border-radius: 50%;
   width: 45px;
   height: 45px;
@@ -743,7 +741,7 @@ div.video-wrapper {
 
 /*=== Footer Part Start ===*/
 #footer {
-  background: url(../images/footer.jpg) #3d325d;
+  /* background: url(../images/footer.jpg) #3d325d; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -768,7 +766,7 @@ div.video-wrapper {
   line-height: 30px;
 }
 
-.foot-content ul {}
+
 
 .foot-content ul li {
   line-height: 30px;
