@@ -1,4 +1,5 @@
 import React from "react";
+import MyCarousel from "./Carousel";
 
 export default function Header() {
   return (
@@ -48,97 +49,7 @@ export default function Header() {
       </nav>
 
       <div className="container">
-        <div
-          id="carouselExampleIndicators"
-          className="carousel slide"
-          data-ride="carousel"
-        >
-          <ol className="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              className="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-
-          <div className="row carousel-inner text-center d-flex text-align-center">
-            <div className="carousel-item active">
-              <img src="images/000000.png" alt="..." />
-              <div className="carousel-caption  d-md-block slider-sec">
-                <h5>We Are Awesome Creative Agency</h5>
-                <p>
-                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
-                  sit amet mauris. Morbi accumsan ipsum velit.
-                </p>
-                <a href="">
-                  <button className="slider-btn">Learn more</button>
-                </a>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src="images/000000.png" alt="..." />
-              <div className="carousel-caption  d-md-block slider-sec">
-                <h5>We Are Awesome Creative Agency</h5>
-                <p>
-                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
-                  sit amet mauris. Morbi accumsan ipsum velit.
-                </p>
-                <a href="">
-                  <button className="slider-btn">Learn more</button>
-                </a>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src="images/000000.png" alt="..." />
-              <div className="carousel-caption  d-md-block slider-sec">
-                <h5>We Are Awesome Creative Agency</h5>
-                <p>
-                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
-                  sit amet mauris. Morbi accumsan ipsum velit.
-                </p>
-                <a href="">
-                  <button className="slider-btn">Learn more</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <a
-            className="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="sr-only">Previous</span>
-          </a>
-          <a
-            className="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="sr-only">Next</span>
-          </a>
-        </div>
+        <MyCarousel />
       </div>
     </section>
   );

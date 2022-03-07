@@ -1,4 +1,14 @@
 import React from "react";
+import {
+  FaMap,
+  FaPhoneAlt,
+  FaRegPaperPlane,
+  FaFacebookSquare,
+  FaTwitterSquare,
+  FaGithubSquare,
+  FaLinkedin,
+  FaYoutubeSquare,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -27,16 +37,30 @@ export default function Footer() {
               sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare
               odio non mauris vitae erat in elit
             </p>
+            <nav className="fot-menu text-left mt-4">
+              <ul>
+                <li>
+                  <a href="">HELP </a>
+                </li>
+                <li>
+                  <a href="">TERMS & CONDITION</a>
+                </li>
+                <li>
+                  <a href="">PRIVACY</a>
+                </li>
+              </ul>
+            </nav>
           </div>
           <div className="col-lg-4">
             <ul>
               <li>
-                <i className="fal fa-map-marker-alt"></i>Ruko cucruk, Jl. Radio
-                luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 -
-                Indonesia
+                <FaMap />
+                Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres -
+                Jakarta Barat 11480 - Indonesia
               </li>
               <li>
-                <i className="fal fa-phone"></i>(+62) 21-2224 3333
+                <FaPhoneAlt />
+                (+62) 21-2224 3333
               </li>
             </ul>
           </div>
@@ -51,7 +75,7 @@ export default function Footer() {
               />
               <div className="input-group-append">
                 <span className="input-group-text" id="basic-addon2">
-                  <i className="far fa-paper-plane"></i>
+                  <FaRegPaperPlane />
                 </span>
               </div>
             </div>
@@ -59,68 +83,42 @@ export default function Footer() {
               <ul>
                 <li>
                   <a href="">
-                    <i className="fab fa-facebook-f"></i>
+                    <FaFacebookSquare />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <i className="fab fa-twitter"></i>
+                    <FaTwitterSquare />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <i className="fab fa-instagram"></i>
+                    <FaGithubSquare />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <i className="fab fa-google-plus-g"></i>
+                    <FaLinkedin />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <i className="fab fa-youtube"></i>
+                    <FaYoutubeSquare />
                   </a>
                 </li>
               </ul>
             </nav>
           </div>
         </div>
-        <div className="row foot-copyright">
-          <div className="col-lg-6">
-            <nav className="fot-menu text-left">
-              <ul>
-                <li>
-                  <a href="">HELP </a>
-                </li>
-                <li>
-                  <a href="">TERMS & CONDITION</a>
-                </li>
-                <li>
-                  <a href="">PRIVACY</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div className="col-lg-6 text-right foot-credit">
-            Copyright © 2015 - Tajem Creative
-          </div>
-        </div>
+
         <div className="row">
-          <div className="col-lg-12 desigh-by">
-            <h1 className="animate__animated animate__rollIn text-center">
-              Design By{" "}
-              <a
-                className="linksl kukuri"
-                href="http://www.facebook.com/borhan.biswas/"
-              >
-                <i className="fas fa-heart"></i>
-                Borhan Uddin
-                <i className="fas fa-heart"></i>
-              </a>
-            </h1>
-            <br />
-            <br />
+          <div className="col-lg-12 mt-5 mb-5 text-center">
+            Copyright © 2020 - Tajem Creative | Design By{" "}
+            <a className="linksl kukuri" href="http://www.wapborhan.com/">
+              <i className="fas fa-heart"></i>
+              Borhan Uddin
+              <i className="fas fa-heart"></i>
+            </a>
           </div>
         </div>
       </div>

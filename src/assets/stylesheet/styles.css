@@ -31,7 +31,10 @@ button:hover {
   box-shadow: 0px 10px 20px 0px #4bf270;
 }
 */
-
+.input-group-text {
+  height: 100%;
+  cursor: pointer;
+}
 
 .text-slider h2 {
   font-size: 30px;
@@ -139,33 +142,25 @@ button:hover {
   margin-bottom: 100px;
 }
 
-.carousel-control-prev-icon {
-
-  display: none;
+.carousel-caption {
+  position: absolute;
+  top: 20%;
 }
 
-.carousel-control-next-icon {
-
-  display: none;
+.carousel-caption p {
+  margin-top: 50px;
 }
 
-.carousel-indicators .active {
-  background-color: #00e0d0;
+.slick-dots li.slick-active button:before {
+  color: #00e0d0 !important;
 }
 
-.carousel-indicators li {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 10px;
-  border-radius: 50%;
-  border: 2px solid #FFF;
-  background: transparent;
+.slick-dots li button:before {
+  font-size: 10px !important;
+  color: #fff !important;
 }
 
-.carousel-indicators li:hover {
-  background: #00e0d0;
-}
+
 
 
 /* === Slider End === */
@@ -208,7 +203,15 @@ button:hover {
   color: #26e2d3;
   text-transform: uppercase;
   cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 8px;
 }
+
+.story-btn:hover {
+  background: #26e2d3;
+  color: #fff;
+}
+
 
 /* === Watch Start === */
 .watch-sec {
@@ -225,6 +228,12 @@ button:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.popup-youtube {
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .watch-btn {
@@ -320,19 +329,34 @@ div.video-wrapper {
 }
 
 .services-item {
-  /*    border: solid 1px black;*/
+  border: solid 1px rgb(160, 160, 160);
   padding: 40px 15px;
+  border-radius: 50px 0 50px 0;
+  transition: all 0.3s;
+  cursor: pointer;
+
 }
+
+
 
 .services-item:hover {
-
-  box-shadow: 1px 1px 20px 1px #30a8db;
+  box-shadow: 0 0 15px -3px #8b8b8bab;
+  border-radius: 0px 50px 0px 50px;
 }
 
-.services-item i {
+
+
+.services-item svg {
   font-size: 60px;
   color: #3bafcd;
   padding-bottom: 30px;
+  transform: scale(1);
+  transition: all 0.3s;
+}
+
+.services-item:hover svg {
+  transform: scale(1.5);
+  color: #3bafcd;
 }
 
 .services-2nd {
@@ -342,7 +366,7 @@ div.video-wrapper {
 .services-item h2 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   color: #413d4b;
   text-transform: uppercase;
@@ -427,6 +451,13 @@ div.video-wrapper {
   text-transform: uppercase;
   cursor: pointer;
   margin-bottom: 80px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.team-btn:hover {
+  background: #26e2d3;
+  color: #fff;
 }
 
 .team-main-item {
@@ -434,8 +465,8 @@ div.video-wrapper {
 }
 
 .team-main-iteam:hover {
-  background: #E91E63;
-  box-shadow: 10px 10px #F44336;
+  background: #b355ff;
+  box-shadow: 10px 10px #4336f4;
 }
 
 .team-item img {
@@ -450,6 +481,8 @@ div.video-wrapper {
 .team-main-iteam {
   border: solid 1px #ffffff;
   text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 .team-item h3 {
@@ -513,6 +546,7 @@ div.video-wrapper {
   width: 100%;
   height: auto;
   transition: .5s ease;
+  cursor: pointer;
 }
 
 .works-hov {
@@ -520,14 +554,26 @@ div.video-wrapper {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
   transition: .5s ease;
   opacity: 0;
   font-size: 35px;
-  width: 100;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: rgba(65, 170, 255, 0.644);
+  /* padding: 30px 60px; */
+  border-radius: 10px;
 }
 
-.works-hov:hover {
+.works-hov svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.works-iteam:hover .works-hov {
   opacity: 1;
 }
 
@@ -602,6 +648,7 @@ div.video-wrapper {
 .my-slider {
   width: 100%;
   position: relative;
+  padding: 100px 0;
 }
 
 
@@ -700,8 +747,8 @@ div.video-wrapper {
 
 /* === Partner Part Start*/
 .partner-content {
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding-top: 80px;
+  /* padding-bottom: 40px; */
 }
 
 .partner-content h2 {
@@ -715,6 +762,7 @@ div.video-wrapper {
 
 .partner-content img {
   width: 100%;
+  height: 60%;
 }
 
 .client-btn {
@@ -722,14 +770,18 @@ div.video-wrapper {
   font-size: 14px;
   font-weight: 700;
   padding: 10px 30px;
-  background: rgba(255, 255, 255, 0);
+  background: #26e2d3;
   border: 1px solid #26e2d3;
-  color: #26e2d3;
+  color: #fff;
   text-transform: uppercase;
   cursor: pointer;
   margin-bottom: 80px;
 }
 
+.client-btn:hover {
+  background: #00887d;
+  color: #fff;
+}
 
 /* === Partner Part End*/
 
@@ -772,8 +824,9 @@ div.video-wrapper {
   line-height: 30px;
 }
 
-.foot-content ul li i {
-  padding-right: 10px;
+.foot-content ul li svg {
+  margin-right: 10px;
+  /* font-size: 15px; */
 }
 
 nav.foot-social-icon ul {
@@ -790,6 +843,8 @@ nav.foot-social-icon li a {
   font-size: 36px;
   color: #ffffff;
   border-radius: 50%;
+  margin-left: 10px;
+  transition: all 0.3s;
 }
 
 nav.foot-social-icon li a:hover {
@@ -844,11 +899,11 @@ nav.fot-menu ul li a {
   font-weight: 900;
   overflow: hidden;
   line-height: 0.75;
-  color: #b2b0a9;
+  color: #ffffff;
 }
 
 .kukuri:hover {
-  color: #b2b0a9;
+  color: #ff08ea;
 }
 
 .kukuri::after {
@@ -859,7 +914,7 @@ nav.fot-menu ul li a {
   top: 50%;
   margin-top: -8px;
   right: 0;
-  background: #f9f9f9;
+  background: #ffda05;
   transform: translate3d(-100%, 0, 0);
   transition: transform 0.4s;
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);

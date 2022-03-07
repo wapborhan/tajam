@@ -1,65 +1,50 @@
-import React from "react";
+import React, { Component } from "react";
+import { FaRegPlayCircle } from "react-icons/fa";
+import { Modal, ModalHeader, ModalBody, Button, ModalFooter } from "reactstrap";
+import ReactPlayer from "react-player";
 
-export default function Watch() {
-  return (
-    <section
-      id="watch"
-      style={{
-        backgroundImage: `url("images/watch.jpg")`,
-      }}
-    >
-      <div className="container">
-        <div className="watch-sec">
-          <div className="watch-btn">
-            <a data-toggle="modal" data-target="#modal1">
-              <i className="far fa-play-circle"></i>
-            </a>
+export default class Watch extends Component {
+  state = {
+    isOpen: false,
+  };
 
-            <div
-              className="modal fade"
-              id="modal1"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-            >
-              <div className="modal-dialog modal-lg" role="document">
-                <div className="modal-content">
-                  <div className="modal-body mb-0 p-0">
-                    <div className="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                      <iframe
-                        className="embed-responsive-item"
-                        src="https://www.youtube.com/watch?v=pBFQdxA-apI"
-                        allowfullscreen
-                      ></iframe>
-                    </div>
-                  </div>
+  toggleModal = () => {
+    this.setState({ isOpen: !this.state.isOpen });
+  };
+  render() {
+    return (
+      <section
+        id="watch"
+        style={{
+          backgroundImage: `url("images/watch.jpg")`,
+        }}
+      >
+        <div className="container">
+          <div className="watch-sec">
+            <div className="watch-btn">
+              <a className="popup-youtube" onClick={this.toggleModal}>
+                <FaRegPlayCircle />
+              </a>
 
-                  <div className="modal-footer justify-content-center">
-                    <span className="mr-4">Spread the word!</span>
-                    <button
-                      type="button"
-                      className="btn btn-outline-primary btn-rounded btn-md ml-4"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
+              <br />
             </div>
-
-            <a
-              className="popup-youtube"
-              href="https://www.youtube.com/watch?v=pBFQdxA-apI"
-            >
-              <i className="far fa-play-circle"></i>
-            </a>
-            <br />
+            <h2>WATCH OUR STORY</h2>
           </div>
-          <h2>WATCH OUR STORY</h2>
         </div>
-      </div>
-    </section>
-  );
+        <Modal size="lg" isOpen={this.state.isOpen}>
+          <ModalHeader>Video</ModalHeader>
+          <ModalBody>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=Fx1Vh8h65uk&t=13s"
+              width="740px"
+              height="420px"
+            />
+          </ModalBody>
+          <ModalFooter>
+            <Button onClick={this.toggleModal}>Close</Button>
+          </ModalFooter>
+        </Modal>
+      </section>
+    );
+  }
 }

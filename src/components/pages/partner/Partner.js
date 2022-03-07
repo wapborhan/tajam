@@ -16,7 +16,7 @@ export default function Partner() {
                   placeholder="Name"
                 />
               </div>
-              <div className="form-group">
+              <div className="form-group mt-4">
                 <input
                   type="email"
                   className="form-control"
@@ -25,7 +25,7 @@ export default function Partner() {
                   placeholder="Enter email"
                 />
               </div>
-              <div className="form-group">
+              <div className="form-group mt-4">
                 <input
                   type="text"
                   className="form-control"
@@ -33,16 +33,18 @@ export default function Partner() {
                   placeholder="Subject"
                 />
               </div>
-              <div className="form-group">
+              <div className="form-group mt-4 mb-5">
                 <textarea
                   className="form-control"
                   id="exampleFormControlTextarea1"
                   rows="8"
                 ></textarea>
               </div>
-              <button type="submit" className="btn client-btn">
-                Submit
-              </button>
+              <div className="text-center">
+                <button type="submit" className="btn client-btn w-100">
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
           <div className="col-lg-6 text-left partner-content">

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFileCode } from "react-icons/fa";
 
 export default function Work() {
   return (
@@ -13,47 +14,110 @@ export default function Work() {
           </div>
         </div>
       </div>
-      <div className="row works-main-iteam">
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro1.jpg" alt="" />
-          <div className="works-hov">
-            <i className="fas fa-file-code"></i>
+      <div className="m-0 p-0">
+        <div className="works-main-iteam d-flex">
+          <div className="works-iteam">
+            <img
+              src="images/works/pro2.jpg"
+              className="image-fluid"
+              alt="work"
+            />
+            <div className="works-hov">
+              <FaFileCode />
+            </div>
+          </div>
+          <div className="works-iteam">
+            <img
+              src="images/works/pro3.jpg"
+              className="image-fluid"
+              alt="work"
+            />
+            <div className="works-hov">
+              <FaFileCode />
+            </div>
+          </div>
+          <div className="works-iteam">
+            <img
+              src="images/works/pro2.jpg"
+              className="image-fluid"
+              alt="work"
+            />
+            <div className="works-hov">
+              <FaFileCode />
+            </div>
+          </div>
+          <div className="works-iteam">
+            <img
+              src="images/works/pro3.jpg"
+              className="image-fluid"
+              alt="work"
+            />
+            <div className="works-hov">
+              <FaFileCode />
+            </div>
+          </div>
+          <div className="works-iteam">
+            <img
+              src="images/works/pro2.jpg"
+              className="image-fluid"
+              alt="work"
+            />
+            <div className="works-hov">
+              <FaFileCode />
+            </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro2.jpg" alt="" />
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro3.jpg" alt="" />
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro1.jpg" alt="" />
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro2.jpg" alt="" />
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro3.jpg" alt="" />
-        </div>
-      </div>
-      <div className="row works-main-iteam">
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro3.jpg" alt="" />
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro2.jpg" alt="" />
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro1.jpg" alt="" />
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro3.jpg" alt="" />
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro2.jpg" alt="" />
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 works-iteam">
-          <img src="images/works/pro3.jpg" alt="" />
+        <div className="works-main-iteam d-flex">
+          <div className="works-iteam">
+            <img
+              src="images/works/pro2.jpg"
+              className="image-fluid"
+              alt="work"
+            />
+            <div className="works-hov">
+              <FaFileCode />
+            </div>
+          </div>
+          <div className="works-iteam">
+            <img
+              src="images/works/pro3.jpg"
+              className="image-fluid"
+              alt="work"
+            />
+            <div className="works-hov">
+              <FaFileCode />
+            </div>
+          </div>
+          <div className="works-iteam">
+            <img
+              src="images/works/pro2.jpg"
+              className="image-fluid"
+              alt="work"
+            />
+            <div className="works-hov">
+              <FaFileCode />
+            </div>
+          </div>
+          <div className="works-iteam">
+            <img
+              src="images/works/pro3.jpg"
+              className="image-fluid"
+              alt="work"
+            />
+            <div className="works-hov">
+              <FaFileCode />
+            </div>
+          </div>
+          <div className="works-iteam">
+            <img
+              src="images/works/pro2.jpg"
+              className="image-fluid"
+              alt="work"
+            />
+            <div className="works-hov">
+              <FaFileCode />
+            </div>
+          </div>
         </div>
       </div>
       <div className="container work-button text-center">
