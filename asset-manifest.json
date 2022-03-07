@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/tajam/static/css/main.5be4d8ab.css",
-    "main.js": "/tajam/static/js/main.ee967138.js",
+    "main.css": "/tajam/static/css/main.3c00c039.css",
+    "main.js": "/tajam/static/js/main.0089143a.js",
     "static/js/787.e4edd6e6.chunk.js": "/tajam/static/js/787.e4edd6e6.chunk.js",
+    "static/media/slick.svg": "/tajam/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/tajam/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/tajam/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/tajam/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tajam/index.html",
-    "main.5be4d8ab.css.map": "/tajam/static/css/main.5be4d8ab.css.map",
-    "main.ee967138.js.map": "/tajam/static/js/main.ee967138.js.map",
+    "main.3c00c039.css.map": "/tajam/static/css/main.3c00c039.css.map",
+    "main.0089143a.js.map": "/tajam/static/js/main.0089143a.js.map",
     "787.e4edd6e6.chunk.js.map": "/tajam/static/js/787.e4edd6e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5be4d8ab.css",
-    "static/js/main.ee967138.js"
+    "static/css/main.3c00c039.css",
+    "static/js/main.0089143a.js"
   ]
 }
